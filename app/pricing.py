@@ -85,4 +85,3 @@ def calculate_order_total(
     shipping_cost = calculate_shipping_cost(zone, total_after_discount)
  
     return total_after_discount + shipping_cost
- 
